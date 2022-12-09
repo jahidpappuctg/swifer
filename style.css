@@ -12,7 +12,20 @@
   margin: 20px auto;
 }
 
-.swiper-slide img {
+.slider-area .swiper-slide {
+  position: relative;
+}
+
+.slider-area .swiper-slide h2 {
+  position: absolute;
+  content: "";
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+progress .swiper-slide img {
   width: 100%;
 }
 
